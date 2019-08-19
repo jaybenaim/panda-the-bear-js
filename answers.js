@@ -24,7 +24,11 @@ document.addEventListener("DOMContentLoaded", function(e) {
     $('.action-icon-container').css('backgroundColor', 'lightgreen')
     // Question 9 
     $('form #name').attr('placeholder', 'Identify Yourself')
-
+    // Question 10 
+    $('form #message').attr('placeholder', 'State Your Business')
+    // Question 11 
+    $('form #name').attr('value', 'your nemesis')
+    
     
 
 }); 
