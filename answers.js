@@ -28,7 +28,12 @@ document.addEventListener("DOMContentLoaded", function(e) {
     $('form #message').attr('placeholder', 'State Your Business')
     // Question 11 
     $('form #name').attr('value', 'your nemesis')
-    
-    
-
+    // Question 12 
+    $('form #email').attr('value', 'koalathebear@gmail.com') 
+    // Question 13 
+    $('form #submit').attr('value', 'En Garde!')
+    // Question 14 
+    $("form #submit").attr("disabled", true);
+    // Question 15 
+    $('.bio-info').toggle() 
 }); 
