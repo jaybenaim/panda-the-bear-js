@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(e) {
+    // PART 1 
+
     // Add jQuery 
     $('head').append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>') 
     // test 
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     // Question 7 
     $('h1').css('fontFamily', 'monospace') 
     // Question 8 
-    $('.action-icon-container').css('backgroundColor', 'lightgreen')
+    $('.action-icon-bg').css('backgroundColor', 'lightgreen')
     // Question 9 
     $('form #name').attr('placeholder', 'Identify Yourself')
     // Question 10 
@@ -36,4 +38,21 @@ document.addEventListener("DOMContentLoaded", function(e) {
     $("form #submit").attr("disabled", true);
     // Question 15 
     $('.bio-info').toggle() 
+
+    // PART 2 
+    // Question 1 
+    $('div .bar-default:nth-of-type(4)').remove() 
+    // Question 2 
+    let pikachu = $('.portfolio-image [title="Pikachu"]').show().clone() 
+    $('.portfolio-container').append(pikachu)
+    // Question 3 
+    
+    for(let i=0; i < 10; i++){ 
+        let pikachu = $('.portfolio-image [title="Pikachu"]').clone() 
+        let a = $('.portfolio-container').append(pikachu)
+        console.log(a)
+    }
+
+    
+
 }); 
