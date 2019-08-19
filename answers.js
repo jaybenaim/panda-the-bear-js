@@ -12,6 +12,19 @@ document.addEventListener("DOMContentLoaded", function(e) {
     // or $('.bio-info-name').text("Jay Benaim")
     // Question 4
     $('.info-inner-container h3').text('You got changed!')
+    // Question 5 
+    $('body').css('backgroundColor', 'cyan') 
+    // Question 6 
+    for(let i = 0; i < $('.highlight').length; i++){ 
+        $('.highlight').css('color', 'black') 
+    }
+    // Question 7 
+    $('h1').css('fontFamily', 'monospace') 
+    // Question 8 
+    $('.action-icon-container').css('backgroundColor', 'lightgreen')
+    // Question 9 
+    $('form #name').attr('placeholder', 'Identify Yourself')
+
     
 
 }); 
